@@ -1,12 +1,13 @@
 {
-  "name": "my-expense-manager-backend",
+  "name": "task-manager-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
