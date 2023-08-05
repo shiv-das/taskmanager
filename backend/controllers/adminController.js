@@ -14,5 +14,5 @@ exports.loginController = async (req, res) => {
     return res.status(404).send("Email Pass not found");
   }
   console.log("Logged In");
-  res.status(200).send({ authorization: accessToken });
+  res.status(200).set('Access-Control-Allow-Origin', '*').send({ authorization: accessToken });
 };
